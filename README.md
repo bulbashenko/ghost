@@ -2,7 +2,7 @@
 
 A custom VPN protocol designed to be statistically indistinguishable from real HTTPS browsing — built to survive signature DPI, ML-based flow classifiers, and active probing.
 
-> **Status:** Phase 0 — bootstrap. Nothing works yet. Wire format and design are stable; implementation is being built phase-by-phase per [the plan](.claude/plans/streamed-gliding-dahl.md).
+> **Status:** Nothing works yet.
 
 ---
 
