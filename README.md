@@ -67,20 +67,6 @@ go build ./...
 
 Requires Go 1.25+ (auto-bumped by `golang.org/x/crypto`). Linux only in v1.
 
-## Roadmap
-
-- **Phase 0** — Project bootstrap (current)
-- **Phase 1** — Cryptographic core (Noise IK)
-- **Phase 2** — Transport layer (uTLS)
-- **Phase 3** — HTTP/2 camouflage + fallback
-- **Phase 4** — Multiplexer + tunnel handshake
-- **Phase 5** — TUN interface + IP routing
-- **Phase 6** — Traffic shaper
-- **Phase 7** — ML detection harness
-- **Phase 8** — Integration, hardening, docs
-
-Each phase has explicit verification criteria in [the plan file](.claude/plans/streamed-gliding-dahl.md).
-
 ## Out of Scope (v1)
 
 CDN relay (Cloudflare Workers), stream migration, multi-client server, mobile clients, GUI, Windows/macOS clients. See plan for v2+ items.
