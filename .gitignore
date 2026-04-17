@@ -1,0 +1,42 @@
+.claude/
+
+/deploy/
+
+# Build artifacts
+/bin/
+*.exe
+*.test
+*.out
+
+# Go
+/vendor/
+*.swp
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Local config (real keys, certs)
+*.local.yaml
+*.local.yml
+/etc/
+/keys/
+*.pem
+*.key
+*.crt
+
+# Captures
+*.pcap
+*.pcapng
+
+# ML harness artifacts (Python)
+__pycache__/
+*.pyc
+.venv/
+test/detection/**/datasets/
+test/detection/**/models/
+
+# Claude / planning
+# (.claude/ is intentionally tracked — contains plans)
